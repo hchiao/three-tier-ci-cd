@@ -8,8 +8,7 @@ This project will setup AWS CodeBuild to run the project [Three Tier Architectur
 * [Install Terraform](https://www.terraform.io/intro/getting-started/install.html)
 * Setup your ```AWS_ACCESS_KEY_ID``` and ```AWS_SECRET_ACCESS_KEY``` environmental variables. (Assuming user have full permission)
 * Clone this project
-* Before deploying you must manually connect your AWS account to your GitHub account. To do this, use the AWS CodeBuild console to begin creating a build project
-http://docs.aws.amazon.com/cli/latest/reference/codebuild/create-project.html
+* [Before deploying you must manually connect your AWS account to your GitHub account](https://docs.aws.amazon.com/codebuild/latest/APIReference/API_ProjectSource.html)
 
 ### Run commands to deploy:
 * ```terraform init```
