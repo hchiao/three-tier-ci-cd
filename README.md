@@ -12,7 +12,7 @@ This project will setup AWS CodeBuild to run the project [Three Tier Architectur
 
 ### Run commands to deploy:
 * ```terraform init```
-* ```terraform apply -var env=dev (or prod)```
+* ```terraform apply```
 
 NOTE:
 Error will occur when deploying, however the resources will be provisioned correctly.  For more information on the error please click on the link.
